@@ -1,8 +1,11 @@
 import { combineReducers } from 'redux';
-import images from './images';
-import upload from './upload';
+import restaurants from './restaurantReducer';
+import input from './inputReducer';
 
-export default combineReducers({
-  images,
-  upload
+
+const rootReducer = combineReducers({
+  restaurants,
+  input,
 });
+
+export default rootReducer;
