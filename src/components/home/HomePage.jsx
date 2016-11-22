@@ -10,6 +10,9 @@ class HomePage extends Component {
         <div>
           <button onClick={() => browserHistory.push('/inputpage')}>START</button>
         </div>
+        <div>
+          <button onClick={() => browserHistory.push('/jinputpage')}>jSTART</button>
+        </div>
       </div>
     );
   }
