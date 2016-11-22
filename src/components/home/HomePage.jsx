@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { browserHistory, Link } from 'react-router';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
         <h1>Home</h1>
-        <Link to="about" className="btn btn-primary">About</Link>|
-        {/* <Link to="dashboard" className="btn btn-primary">START</Link> */}
+        {/* <Link to="about" className="btn btn-primary">About</Link>| */}
         <div>
-          <button>START</button>
+          <button onClick={() => browserHistory.push('/inputpage')}>START</button>
         </div>
       </div>
     );
