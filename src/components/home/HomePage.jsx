@@ -7,7 +7,7 @@ class HomePage extends Component {
       <div>
         <h1>Home</h1>
         <Link to="about" className="btn btn-primary">About</Link>|
-        <Link to="dashboard" className="btn btn-primary">START</Link>
+        {/* <Link to="dashboard" className="btn btn-primary">START</Link> */}
         <div>
           <button>START</button>
         </div>
