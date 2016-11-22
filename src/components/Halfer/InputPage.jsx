@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const InputPage = () => (
-  <div>
-    <h1>Input</h1>
-  </div>
-);
+class InputPage extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+
+    }
+  }
+  render() {
+    return (
+      <div>
+        <form>
+          
+        </form>
+      </div>
+    )
+  }
+};
 
 export default InputPage;
