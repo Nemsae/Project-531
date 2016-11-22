@@ -11,5 +11,4 @@ export default (
     <Route path="about" component={AboutPage} />
     {/* <Route path="dashboard" component={Dashboard} /> */}
   </Route>
-
   );
