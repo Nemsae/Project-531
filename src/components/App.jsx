@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { Grid } from 'react-flexbox-grid';
-import Header from './common/header';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import { Grid } from 'react-flexbox-grid';
+// import Header from './common/header';
 
 injectTapEventPlugin();
 
@@ -13,7 +13,7 @@ class App extends Component {
       <div className="container">
         <MuiThemeProvider>
           <Grid>
-            <Header />
+            {/* <Header /> */}
             {this.props.children}
           </Grid>
         </MuiThemeProvider>
