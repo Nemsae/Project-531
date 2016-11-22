@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react'
 
 export default class jInputPage extends Component {
-  constructor () {
+  constructor() {
     super();
 
     this.state = {
